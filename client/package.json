@@ -24,6 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "homepage": "https://gnofiep.github.io/meweb",
+  "proxy": "http://localhost:3001", 
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
