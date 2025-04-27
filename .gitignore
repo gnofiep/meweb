@@ -1,0 +1,31 @@
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 编辑器/IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 环境变量文件
+.env
+.env.local
+.env.development
+.env.production
+
+# 构建输出
+dist/
+build/
+out/
+.client/
+.server/
+
+# 依赖目录（由子目录的 .gitignore 处理）
+# node_modules/  # 已在 client/.gitignore 和 server/.gitignore 中处理
